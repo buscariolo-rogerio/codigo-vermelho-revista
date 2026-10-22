@@ -363,7 +363,7 @@ body {
   width: calc(180 * var(--u));
   height: calc(180 * var(--u));
   background: #f3ea00;
-  clip-path: polygon(0 0, 100% 0, 0 100%);
+  clip-path: polygon(0 56%, 56% 0, 89% 0, 0 89%);
 }
 
 .edition-ribbon span {
