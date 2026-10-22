@@ -182,15 +182,33 @@ body {
 }
 
 .title-editorial {
-  font-size: calc(150 * var(--u));
-  line-height: calc(120 * var(--u));
+  font-size: calc(88 * var(--u));
+  line-height: calc(110 * var(--u));
   text-align: center;
 }
 
 .title-vazio {
-  font-size: calc(96 * var(--u));
-  line-height: calc(77.5 * var(--u));
   text-align: center;
+}
+
+.title-vazio span {
+  display: block;
+}
+
+.title-vazio span:first-child {
+  font-size: calc(100 * var(--u));
+  line-height: calc(100 * var(--u));
+}
+
+.title-vazio span:last-child {
+  font-size: calc(54 * var(--u));
+  line-height: calc(69 * var(--u));
+}
+
+#editorial-1 .copy,
+#editorial-2 .copy {
+  font-size: calc(22 * var(--u));
+  line-height: calc(31 * var(--u));
 }
 
 .deck {
@@ -899,8 +917,8 @@ body {
 
 /* ---------- 12, 13, 14, 15 · Estilos específicos ---------- */
 .title-servidao {
-  font-size: calc(96 * var(--u));
-  line-height: calc(77.5 * var(--u));
+  font-size: calc(82 * var(--u));
+  line-height: calc(90 * var(--u));
   text-align: center;
 }
 
