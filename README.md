@@ -16,12 +16,15 @@ Revista digital sobre inteligência artificial, trabalho e direitos no Brasil. A
 
 Acesse o [site da revista](https://buscariolo-rogerio.github.io/codigo-vermelho-revista/) ou abra `index.html` no navegador. O projeto é estático e não precisa de instalação ou etapa de compilação.
 
+Os oito gráficos são elementos HTML interativos: passe o mouse ou use Tab para consultar os valores; nos gráficos circulares, selecione uma categoria para destacá-la. Dados e fontes aparecem na própria página.
+
 ## Estrutura
 
 ```text
 index.html        Página inicial e conteúdo da revista
 dist/styles.css   Estilos e diagramação
-dist/assets/     Fotografias, logotipos e gráficos usados nas páginas
+dist/charts.js    Dados e interação dos gráficos
+dist/assets/     Fotografias e logotipos usados nas páginas
 ```
 
 Para publicar pelo GitHub Pages, mantenha essa estrutura no repositório e selecione **Deploy from a branch**, branch `main`, pasta **/(root)** em *Settings → Pages*. [Instruções do GitHub](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
