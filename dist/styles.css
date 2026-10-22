@@ -5,11 +5,13 @@
    e são escalados proporcionalmente com a unidade --u (1 px do frame).
    ========================================================================== */
 
+/* Fontes do projeto: instaladas no sistema ou colocadas em assets/fonts/ */
 @font-face {
-  font-family: "Rodchenko Original";
-  src: url("assets/fonts/Rodchenko-Original.otf") format("opentype");
-  font-style: normal;
-  font-weight: 400;
+  font-family: "Rodchenko";
+  src: local("Rodchenko"), local("Rodchenko Regular"),
+    url("assets/fonts/Rodchenko.woff2") format("woff2"),
+    url("assets/fonts/Rodchenko.otf") format("opentype"),
+    url("assets/fonts/Rodchenko.ttf") format("truetype");
   font-display: swap;
 }
 
@@ -57,7 +59,7 @@
   --night: #050505;
   --canvas: #1e1e1e;
 
-  --display: "Rodchenko Original", "Stardos Stencil", Impact, sans-serif;
+  --display: "Rodchenko", "Stardos Stencil", Impact, sans-serif;
   --sans: "Lufga", "Outfit", Arial, sans-serif;
   --ui: "Inter", Arial, sans-serif;
 }
@@ -181,7 +183,7 @@ body {
 }
 
 .title-editorial {
-  font-size: calc(108 * var(--u));
+  font-size: calc(88 * var(--u));
   line-height: calc(110 * var(--u));
   text-align: center;
 }
@@ -195,12 +197,12 @@ body {
 }
 
 .title-vazio span:first-child {
-  font-size: calc(110 * var(--u));
+  font-size: calc(100 * var(--u));
   line-height: calc(100 * var(--u));
 }
 
 .title-vazio span:last-child {
-  font-size: calc(68 * var(--u));
+  font-size: calc(54 * var(--u));
   line-height: calc(69 * var(--u));
 }
 
@@ -916,8 +918,8 @@ body {
 
 /* ---------- 12, 13, 14, 15 · Estilos específicos ---------- */
 .title-servidao {
-  font-size: calc(90 * var(--u));
-  line-height: calc(95 * var(--u));
+  font-size: calc(82 * var(--u));
+  line-height: calc(90 * var(--u));
   text-align: center;
 }
 
