@@ -5,13 +5,12 @@
    e são escalados proporcionalmente com a unidade --u (1 px do frame).
    ========================================================================== */
 
-/* Fontes do projeto: instaladas no sistema ou colocadas em assets/fonts/ */
+/* Fonte de títulos incluída no projeto; as demais mantêm as alternativas locais. */
 @font-face {
   font-family: "Rodchenko";
-  src: local("Rodchenko"), local("Rodchenko Regular"),
-    url("assets/fonts/Rodchenko.woff2") format("woff2"),
-    url("assets/fonts/Rodchenko.otf") format("opentype"),
-    url("assets/fonts/Rodchenko.ttf") format("truetype");
+  src: url("assets/fonts/Rodchenko-Regular.otf") format("opentype");
+  font-style: normal;
+  font-weight: 400;
   font-display: swap;
 }
 
