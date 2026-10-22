@@ -6,6 +6,14 @@
    ========================================================================== */
 
 @font-face {
+  font-family: "Rodchenko Original";
+  src: url("assets/fonts/Rodchenko-Original.otf") format("opentype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
   font-family: "Lufga";
   src: local("Lufga Light"), local("Lufga-Light"),
     url("assets/fonts/Lufga-Light.woff2") format("woff2"),
@@ -49,7 +57,7 @@
   --night: #050505;
   --canvas: #1e1e1e;
 
-  --display: "Stardos Stencil", Impact, sans-serif;
+  --display: "Rodchenko Original", "Stardos Stencil", Impact, sans-serif;
   --sans: "Lufga", "Outfit", Arial, sans-serif;
   --ui: "Inter", Arial, sans-serif;
 }
@@ -173,7 +181,7 @@ body {
 }
 
 .title-editorial {
-  font-size: calc(74 * var(--u));
+  font-size: calc(108 * var(--u));
   line-height: calc(110 * var(--u));
   text-align: center;
 }
@@ -187,12 +195,12 @@ body {
 }
 
 .title-vazio span:first-child {
-  font-size: calc(88 * var(--u));
+  font-size: calc(110 * var(--u));
   line-height: calc(100 * var(--u));
 }
 
 .title-vazio span:last-child {
-  font-size: calc(44 * var(--u));
+  font-size: calc(68 * var(--u));
   line-height: calc(69 * var(--u));
 }
 
@@ -908,8 +916,8 @@ body {
 
 /* ---------- 12, 13, 14, 15 · Estilos específicos ---------- */
 .title-servidao {
-  font-size: calc(80 * var(--u));
-  line-height: calc(91 * var(--u));
+  font-size: calc(90 * var(--u));
+  line-height: calc(95 * var(--u));
   text-align: center;
 }
 
