@@ -705,6 +705,42 @@ body {
   padding-left: calc(18 * var(--u));
 }
 
+/* Página 09: gráfico e quadro constitucional em destaque. */
+#direito-1 [data-chart="inercia"] .chart-heading strong {
+  font-size: calc(21 * var(--u));
+}
+
+#direito-1 [data-chart="inercia"] .chart-stat strong {
+  font-size: calc(43 * var(--u));
+}
+
+#direito-1 [data-chart="inercia"] .chart-stat span:not(.chart-tip) {
+  font-size: calc(14 * var(--u));
+}
+
+#direito-1 [data-chart="inercia"] .chart-source {
+  font-size: calc(11 * var(--u));
+}
+
+#direito-1 .box-small {
+  padding: calc(25 * var(--u)) calc(27 * var(--u));
+}
+
+#direito-1 .box-small h3 {
+  font-size: calc(30 * var(--u));
+  line-height: calc(38 * var(--u));
+}
+
+#direito-1 .box-small p,
+#direito-1 .box-small li {
+  font-size: calc(16 * var(--u));
+  line-height: calc(22 * var(--u));
+}
+
+#direito-1 .box-small p {
+  margin-top: calc(21 * var(--u));
+}
+
 .box-list {
   padding: calc(34 * var(--u)) calc(60 * var(--u)) 0 calc(62 * var(--u));
 }
