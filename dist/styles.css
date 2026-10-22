@@ -360,18 +360,18 @@ body {
 .edition-ribbon {
   position: absolute;
   inset: 0 auto auto 0;
-  width: calc(350 * var(--u));
-  height: calc(350 * var(--u));
+  width: calc(200 * var(--u));
+  height: calc(200 * var(--u));
   background: #f3ea00;
-  clip-path: polygon(0 50%, 50% 0, 90% 0, 0 90%);
+  clip-path: polygon(0 50%, 50% 0, 88% 0, 0 88%);
 }
 
 .edition-ribbon span {
   position: absolute;
-  left: calc(122.5 * var(--u));
-  top: calc(122.5 * var(--u));
+  left: calc(69 * var(--u));
+  top: calc(69 * var(--u));
   color: var(--navy);
-  font-size: calc(52 * var(--u));
+  font-size: calc(31 * var(--u));
   font-weight: 700;
   white-space: nowrap;
   transform: translate(-50%, -50%) rotate(-45deg);
