@@ -350,10 +350,11 @@ body {
 .cover-photo {
   position: absolute;
   left: 0;
-  top: calc(-19 * var(--u));
+  top: 0;
   width: 100%;
-  height: calc(1440 * var(--u));
+  height: 100%;
   object-fit: cover;
+  object-position: center;
 }
 
 .edition-ribbon {
