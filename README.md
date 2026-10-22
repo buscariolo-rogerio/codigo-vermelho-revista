@@ -29,4 +29,4 @@ dist/assets/     Fotografias e logotipos usados nas páginas
 
 Para publicar pelo GitHub Pages, mantenha essa estrutura no repositório e selecione **Deploy from a branch**, branch `main`, pasta **/(root)** em *Settings → Pages*. [Instruções do GitHub](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
 
-Os estilos usam Rodchenko e Lufga quando essas fontes estão disponíveis; o navegador utiliza fontes substitutas caso contrário. Os créditos da equipe estão na página 14 da revista.
+Os títulos usam Stardos Stencil. O texto usa Lufga quando disponível e Outfit como alternativa. Os créditos da equipe estão na página 14 da revista.
