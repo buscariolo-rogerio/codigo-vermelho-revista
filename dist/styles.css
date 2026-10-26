@@ -789,7 +789,21 @@ body {
 }
 
 .masthead {
+  isolation: isolate;
   text-align: right;
+}
+
+.masthead::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: calc(-18 * var(--u));
+  right: calc(-13 * var(--u));
+  width: calc(390 * var(--u));
+  height: calc(185 * var(--u));
+  background: radial-gradient(ellipse at center, rgba(0, 0, 0, .88) 20%, rgba(0, 0, 0, .66) 50%, transparent 78%);
+  filter: blur(calc(9 * var(--u)));
+  pointer-events: none;
 }
 
 .cover-logo {
